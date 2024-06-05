@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizar Prenda</title>
+    <link rel="stylesheet" href="./css/Personalizar.css">
+    <link rel="icon" href="./img/Logo-ViHoliccopia.png">
+</head>
+<body>
+    <div id="app" class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Personalización</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <header>
+                <h1 class="logo">ViHolic</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-return-left"></i> Inicio
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <footer>
+                <p class="texto-footer">© 2024 ViHolic Coder</p>
+            </footer>
+        </aside>
+
+        <main>
+            <h2 class="titulo-principal">Personalizar Prenda</h2>
+            <form id="customizationForm">
+                <label for="color" class="tittleC-T">Colores Disponibles:</label>
+                <div class="color-options">
+                    <input type="radio" id="color-blanco" name="color" value="blanco" checked>
+                    <label for="color-blanco" class="color-circle" style="background-color: #ffffff;"></label>
+
+                    <input type="radio" id="color-negro" name="color" value="negro">
+                    <label for="color-negro" class="color-circle" style="background-color: #000000;"></label>
+
+                    <input type="radio" id="color-gris" name="color" value="gris">
+                    <label for="color-gris" class="color-circle" style="background-color: #808080;"></label>
+
+                    <input type="radio" id="color-rojo" name="color" value="rojo">
+                    <label for="color-rojo" class="color-circle" style="background-color: #ff0000;"></label>
+
+                    <input type="radio" id="color-azul" name="color" value="azul">
+                    <label for="color-azul" class="color-circle" style="background-color: #0000ff;"></label>
+                </div>
+
+                <label for="size" class="tittleC-T">Tallas Disponibles:</label>
+                <div class="size-options">
+                    <input type="radio" id="size-S" name="size" value="S" checked>
+                    <label for="size-S" class="size-box">S</label>
+
+                    <input type="radio" id="size-M" name="size" value="M">
+                    <label for="size-M" class="size-box">M</label>
+
+                    <input type="radio" id="size-L" name="size" value="L">
+                    <label for="size-L" class="size-box">L</label>
+
+                    <input type="radio" id="size-XL" name="size" value="XL">
+                    <label for="size-XL" class="size-box">XL</label>
+                </div>
+
+                <label for="type" class="tittleC-T">Tipos de Prenda Disponibles:</label>
+                <div class="type-options">
+                    <input type="radio" id="type-camiseta" name="type" value="Camiseta" checked>
+                    <label for="type-camiseta" class="type-box">Camiseta</label>
+
+                    <input type="radio" id="type-oversize" name="type" value="Camiseta Oversize">
+                    <label for="type-oversize" class="type-box">Camiseta Oversize</label>
+
+                    <input type="radio" id="type-crop-oversize" name="type" value="CropTop Oversize">
+                    <label for="type-crop-oversize" class="type-box">CropTop Oversize</label>
+
+                    <input type="radio" id="type-croptop" name="type" value="CropTop">
+                    <label for="type-croptop" class="type-box">CropTop</label>
+
+                    <input type="radio" id="type-boxfit" name="type" value="BoxFit">
+                    <label for="type-boxfit" class="type-box">BoxFit</label>
+                </div>
+
+                <p class="image-instructions">Al entrar al WhatsApp podrás subir la imagen que gustes y hablarás con un asesor para finalizar la compra.</p>
+
+                <button type="button" onclick="sendToWhatsApp()">Enviar a WhatsApp</button>
+            </form>
+        </main>
+    </div>
+    <script src="./js/Personalizar.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+[
+    
+    {
+        "id": "gorra-01",
+        "titulo": "Gorra Prada",
+        "imagen": "./img/gorras/01.jpg",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 45000
+    },
+    {
+        "id": "gorra-02",
+        "titulo": "Gorra Hugo Boss",
+        "imagen": "./img/gorras/02.jpg",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 45000
+    },
+    {
+        "id": "gorra-03",
+        "titulo": "Gorra Calvin Klein",
+        "imagen": "./img/gorras/03.jpg",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 45000
+    },
+    {
+        "id": "gorra-04",
+        "titulo": "Gorra Prada",
+        "imagen": "./img/gorras/04.jpg",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 45000
+    },
+    {
+        "id": "gorra-05",
+        "titulo": "Gorra Essentials",
+        "imagen": "./img/gorras/05.jpg",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 45000
+    },
+    
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta Adidas Negra",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 65000
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta Adidas Blanca",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 65000
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta Nike Azul",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 65000
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta Nike Blanca",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 65000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta Adidas Negra",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 65000
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta Nike Negra",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 65000
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta Jordan Negra",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 40000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta Monastery Negra",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 40000
+    },
+    
+    {
+        "id": "ten-01",
+        "titulo": "Jordan 11 Blanca",
+        "imagen": "./img/tenis/01.jpg",
+        "categoria": {
+            "nombre": "Tenis",
+            "id": "tenis"
+        },
+        "precio": 150000
+    },
+    {
+        "id": "ten-02",
+        "titulo": "Jordan 11 Negra",
+        "imagen": "./img/tenis/02.jpg",
+        "categoria": {
+            "nombre": "Tenis",
+            "id": "tenis"
+        },
+        "precio": 150000
+    },
+    {
+        "id": "ten-03",
+        "titulo": "Adidas Sikage Gris",
+        "imagen": "./img/tenis/03.jpg",
+        "categoria": {
+            "nombre": "Tenis",
+            "id": "tenis"
+        },
+        "precio": 150000
+    },
+    {
+        "id": "ten-04",
+        "titulo": "Nike Zoom Negra",
+        "imagen": "./img/tenis/04.jpg",
+        "categoria": {
+            "nombre": "Tenis",
+            "id": "tenis"
+        },
+        "precio": 150000
+    },
+    {
+        "id": "ten-05",
+        "titulo": "Nike Zoom Gris",
+        "imagen": "./img/tenis/05.jpg",
+        "categoria": {
+            "nombre": "Tenis",
+            "id": "tenis"
+        },
+        "precio": 150000
+    }
+]

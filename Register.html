@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="./css/Register.css">
+  <link rel="icon" href="./img/Logo-ViHoliccopia.png">
+</head>
+<body>
+  <div id="app" class="wrapper">
+    <header class="header-mobile">
+      <h1 class="logo">Register</h1>
+      <button class="open-menu" id="open-menu">
+        <i class="bi bi-list"></i>
+      </button>
+    </header>
+    <aside>
+      <button class="close-menu" id="close-menu">
+        <i class="bi bi-x"></i>
+      </button>
+      <header>
+        <h1 class="logo">Register</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a class= "boton-menu boton-volver" href="./index.html">
+              <i class="bi bi-arrow-return-left"></i> Inicio
+            </a>
+          </li>
+          <li>
+            <a class= "boton-menu boton-carrito active" href="./Login.html">
+              <i class="bi bi-cart-fill"></i> Register
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <footer>
+        <p class="texto-footer">© 2024 ViHolic Coder</p>
+      </footer>
+    </aside>
+
+    <main>
+      <h2 class="titulo-principal">Register</h2>
+      <div class="contenedor-login">
+        <div class="card-body">
+          <form @submit.prevent="createAccount">
+            <div class="form-group">
+              <input type="text" id="firstName" placeholder="Nombre" v-model="firstName" required />
+              <input type="text" id="lastName" placeholder="Apellido" v-model="lastName" required />
+              <select id="birth-place" placeholder="Lugar de Nacimiento" v-model="birthPlace" required>
+                <option value="" disabled selected>Lugar de nacimiento</option>
+              <option value="Alemania">Alemania</option>
+              <option value="Albania">Albania</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Arabia Saudita">Arabia Saudita</option>
+              <option value="Armenia">Armenia</option>
+              <option value="Australia">Australia</option>
+              <option value="Austria">Austria</option>
+              <option value="Barbados">Barbados</option>
+              <option value="Baréin">Baréin</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Belice">Belice</option>
+              <option value="Bermuda">Bermuda</option>
+              <option value="Bielorrusia">Bielorrusia</option>
+              <option value="Botsuana">Botsuana</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Bulgaria">Bulgaria</option>
+              <option value="Camboya">Camboya</option>
+              <option value="Camerún">Camerún</option>
+              <option value="Canadá">Canadá</option>
+              <option value="Catar">Catar</option>
+              <option value="Chile">Chile</option>
+              <option value="China">China</option>
+              <option value="Chipre">Chipre</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Corea del Sur">Corea del Sur</option>
+              <option value="Costa Rica">Costa Rica</option>
+              <option value="Croacia">Croacia</option>
+              <option value="Dinamarca">Dinamarca</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="Egipto">Egipto</option>
+              <option value="El Salvador">El Salvador</option>
+              <option value="Emiratos Árabes Unidos">
+                Emiratos Árabes Unidos
+              </option>
+              <option value="Eslovaquia">Eslovaquia</option>
+              <option value="Eslovenia">Eslovenia</option>
+              <option value="España">España</option>
+              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="Estonia">Estonia</option>
+              <option value="Filipinas">Filipinas</option>
+              <option value="Finlandia">Finlandia</option>
+              <option value="Fiyi">Fiyi</option>
+              <option value="Francia">Francia</option>
+              <option value="Ghana">Ghana</option>
+              <option value="Gibraltar">Gibraltar</option>
+              <option value="Grecia">Grecia</option>
+              <option value="Guadalupe">Guadalupe</option>
+              <option value="Guatemala">Guatemala</option>
+              <option value="Guayana Francesa">Guayana Francesa</option>
+              <option value="Honduras">Honduras</option>
+              <option value="Hong Kong">Hong Kong</option>
+              <option value="India">India</option>
+              <option value="Indonesia">Indonesia</option>
+              <option value="Irlanda">Irlanda</option>
+              <option value="Islas Caimán">Islas Caimán</option>
+              <option value="Islas Marshall">Islas Marshall</option>
+              <option value="Israel">Israel</option>
+              <option value="Italia">Italia</option>
+              <option value="Jamaica">Jamaica</option>
+              <option value="Japón">Japón</option>
+              <option value="Jordania">Jordania</option>
+              <option value="Kazajistán">Kazajistán</option>
+              <option value="Kenia">Kenia</option>
+              <option value="Kirguistán">Kirguistán</option>
+              <option value="Kuwait">Kuwait</option>
+              <option value="Letonia">Letonia</option>
+              <option value="Lituania">Lituania</option>
+              <option value="Luxemburgo">Luxemburgo</option>
+              <option value="Macao">Macao</option>
+              <option value="Malasia">Malasia</option>
+              <option value="Malta">Malta</option>
+              <option value="Marruecos">Marruecos</option>
+              <option value="Martinica">Martinica</option>
+              <option value="Mauricio">Mauricio</option>
+              <option value="Mayotte">Mayotte</option>
+              <option value="México">México</option>
+              <option value="Micronesia">Micronesia</option>
+              <option value="Mónaco">Mónaco</option>
+              <option value="Namibia">Namibia</option>
+              <option value="Nigeria">Nigeria</option>
+              <option value="Nueva Caledonia">Nueva Caledonia</option>
+              <option value="Nueva Zelanda">Nueva Zelanda</option>
+              <option value="Omán">Omán</option>
+              <option value="Pakistán">Pakistán</option>
+              <option value="Palaos">Palaos</option>
+              <option value="Panamá">Panamá</option>
+              <option value="Paraguay">Paraguay</option>
+              <option value="Perú">Perú</option>
+              <option value="Polonia">Polonia</option>
+              <option value="Portugal">Portugal</option>
+              <option value="Reino Unido">Reino Unido</option>
+              <option value="República Checa">República Checa</option>
+              <option value="República Dominicana">República Dominicana</option>
+              <option value="Rumanía">Rumanía</option>
+              <option value="Rusia">Rusia</option>
+              <option value="San Bartolomé">San Bartolomé</option>
+              <option value="San Cristóbal y Nieves">
+                San Cristóbal y Nieves
+              </option>
+              <option value="San Marino">San Marino</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+              <option value="Sudáfrica">Sudáfrica</option>
+              <option value="Suecia">Suecia</option>
+              <option value="Suiza">Suiza</option>
+              <option value="Tailandia">Tailandia</option>
+              <option value="Taiwán">Taiwán</option>
+              <option value="Territorios Palestinos">
+                Territorios Palestinos
+              </option>
+              <option value="Trinidad y Tobago">Trinidad y Tobago</option>
+              <option value="Turquía">Turquía</option>
+              <option value="Ucrania">Ucrania</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Venezuela">Venezuela</option>
+              <option value="Vietnam">Vietnam</option>
+              <option value="Zimbabue">Zimbabue</option>
+              </select>
+              <input type="date" class="birth-place" v-model="birthDate" @input="validateBirthdate" required />
+              <input type="text" id="billing-address" placeholder="Dirección de Facturación" v-model="billingAddress" required />
+              <input type="text" id="DNI" placeholder="Documento" v-model="DNI" required />
+              <select id="gender" placeholder="Género" v-model="gender" required>
+                <option value="" disabled selected>Seleccione el género</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+              </select>
+              <input type="email" id="email" placeholder="Correo Electrónico" v-model="email" required />
+              <input type="text" id="username" placeholder="Usuario" v-model="username" required />
+              <input type="password" id="password" placeholder="Contraseña" v-model="password" required />
+            </div>
+            <button id="create-account" class="create-account" type="submit">Crear Cuenta</button>
+          </form>
+          <div class="box-text">
+            <p id="text1">----- o -----</p>
+            <a href="./Login.html">¿Ya tienes una cuenta?</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="./js/Register.js"></script>
+</body>
+</html>
