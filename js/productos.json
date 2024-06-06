@@ -131,7 +131,37 @@
         },
         "precio": 40000
     },
-    
+    {
+        "id": "camiseta-09",
+        "titulo": "Crop Top Personalizado",
+        "imagen": "./img/camisetas/09.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "camiseta-10",
+        "titulo": "Crop Top Personalizado",
+        "imagen": "./img/camisetas/10.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "camiseta-11",
+        "titulo": "Oversize Personalizado",
+        "imagen": "./img/camisetas/11.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 60000
+    },
+
     {
         "id": "ten-01",
         "titulo": "Jordan 11 Blanca",
